@@ -32,8 +32,6 @@ alias squash='git merge --squash --no-commit'
 alias gll="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
 # this command loads one letter aliases on demand
-git_shortcuts_dir=`dirname $BASH_SOURCE`
-alias gitoneletteraliases=". $git_shortcuts_dir/git-one-letter-aliases.sh"
 
 
 # Git submodule shortcutsc

@@ -10,13 +10,12 @@ source $HOME/.config/zsh/environment.zsh
 typeset -ga sources
 sources+="$ZSH_CONFIG/environment.zsh"
 sources+="$ZSH_CONFIG/options.zsh"
-sources+="$ZSH_CONFIG/prompt.zsh"
-sources+="$ZSH_CONFIG/functions.zsh"
+
 sources+="$ZSH_CONFIG/aliases.zsh"
 sources+="$ZSH_CONFIG/config.zsh"
 sources+="$ZSH_CONFIG/git-aliases.zsh"
 #sources+="$ZSH_CONFIG/paths.zsh"
-sources+="$ZSH_CONFIG/misc-shortcuts-alises.zsh"
+
 
 
 # highlights the live command line
@@ -43,7 +42,6 @@ sources+="$ZSH_CONFIG/fasd.zsh"
 # Private aliases and adoptions added at the very end (e.g. to start byuobu)
 sources+="$ZSH_CONFIG/private.final.zsh"
 
-ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
 # try to include all sources
 foreach file (`echo $sources`)
