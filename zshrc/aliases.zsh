@@ -37,7 +37,6 @@ alias v=" clear; ll -gh"    # standard directory view
 alias vs=" v **/*(.)"         # show all files in all subdirs plain in a list
 
 alias p=' ps aux | grep'
-alias g='git'
 alias b='brew'
 alias d=' dirs -v'
 alias ka="killall"
@@ -63,7 +62,6 @@ alias -g G='| grep -'
 #alias -g P='2>&1 | $PAGER'
 alias -g L='| less'
 alias -g LA='2>&1 | less'
-alias -g M='| most'
 alias -g C='| wc -l'
 
 # http://www.commandlinefu.com/commands/view/7284/zsh-suffix-to-inform-you-about-long-command-ending

@@ -3,7 +3,7 @@
 #
 # the main RC file (will be linked to ~/.zshrc)
 #
-
+plugins=(rails git ruby common-aliases)
 # first include of the environment
 source $HOME/.config/zsh/environment.zsh
 
@@ -16,7 +16,7 @@ sources+="$ZSH_CONFIG/config.zsh"
 sources+="$ZSH_CONFIG/git-aliases.zsh"
 #sources+="$ZSH_CONFIG/paths.zsh"
 
-
+#sources+="$ZSH_CONFIG/hayne-aliases.zsh"
 
 # highlights the live command line
 # Cloned From: git://github.com/nicoulaj/zsh-syntax-highlighting.git
